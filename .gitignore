@@ -1,0 +1,9 @@
+# Ignorar checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Ignorar cachés de Python
+__pycache__/
+
+# Ignorar archivos temporales
+*.tmp
+*.swp
