@@ -1,5 +1,11 @@
 <?php
 header('Content-Type: application/json');
+echo json_encode([
+  "debug" => "ROOT submit_score.php",
+  "post" => $_POST,
+  "raw" => file_get_contents("php://input")
+]);
+exit;
 
 // Solo permitir POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
